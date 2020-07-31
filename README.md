@@ -5,7 +5,7 @@ This repository contains a single Kubernetes deployment that registers a group o
 ### Installation
 
 1. Make a copy of `deployment.yaml`.
-2. Edit the environmental variables based on the following variables:
+2. Edit the environmental variables:
 
 | Variable              | Description                                                                |
 |-----------------------|----------------------------------------------------------------------------|
