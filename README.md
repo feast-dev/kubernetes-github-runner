@@ -2,7 +2,7 @@
 
 This repository contains a single Kubernetes deployment that registers a group of self-hosted Github Actions runners on Kubernetes. Based on the work from [this repository](https://github.com/tcardonne/docker-github-runner)
 
-# How to use
+### Installation
 
 1. Make a copy of `deployment.yaml`
 2. Edit the environmental variables based on the following variables
@@ -21,3 +21,5 @@ kubectl apply -f deployment.yaml
 ```
 
 4. Confirm that the self-hosted runners appear in GitHub
+
+![](/runners.png)
